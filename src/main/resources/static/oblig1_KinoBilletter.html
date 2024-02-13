@@ -5,6 +5,26 @@
     <title>Kinobilletter</title>
 </head>
 <body>
+<h1>Bestilling av kinobilletter</h1>
+<label>Velg film:
+<select id="filmer">
+    <option>Velg film her</option>
+    <option value="batman">Batman</option>
+    <option value="starwars">Star wars</option>
+    <option value="focus">Focus</option>
+    <option value="kingarthur">King Arthur</option>
+</select>
+</label><br><br>
 
+<label>Antall<input type="number" id="antallBilletter" min="0" max="100"></label><br><br>
+<label>Fornavn<input type="text" id="fornavn"></label><br>
+<label>Etternavn<input type="text" id="etternavn"></label><br>
+<label>Telefonnr<input type="text" id="telefnr"></label><br>
+<label>Epost<input type="email" id="epost"></label><br>
+<button id="kjopBilett">Kjøp billett</button>
+
+<h2>Alle billetter</h2>
+<button id="slettAlle">Slett alle billettene</button>
+<script src="oblig1_JS_billetter.js"></script>
 </body>
 </html>
