@@ -15,9 +15,11 @@
             margin-top: 1em;
         }
     </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 <body>
 <h1>Bestilling av kinobilletter</h1>
+<form id="formBilletter">
 <label for="filmer">Velg film:</label>
 <select id="filmer">
     <option>Velg film her</option>
@@ -38,8 +40,8 @@
 <input type="text" id="telefnr"><br>
 <label for="epost">Epost</label>
 <input type="email" id="epost"><br>
-<button id="kjopBilett">Kjøp billett</button>
-
+<button id="kjopBilett" type="submit">Kjøp billett</button>
+</form>
 <h2>Alle billetter</h2>
 <button id="slettAlle">Slett alle billettene</button>
 <script src="oblig1_JS_billetter.js"></script>
