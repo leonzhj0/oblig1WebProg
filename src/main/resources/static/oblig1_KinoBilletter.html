@@ -16,6 +16,7 @@
         }
         div{
             color: red;
+            font-weight: bold;
         }
         #tabellBilletter{
             display: none;
@@ -34,20 +35,28 @@
     <option value="Focus">Focus</option>
     <option value="King Arthur">King Arthur</option>
 </select>
-<div id="filmValidering"></div><br><br>
+<div class="validering" id="filmValidering"></div><br><br>
 
 <label for="antallBilletter">Antall</label>
 <input type="number" id="antallBilletter" min="0" max="500">
-    <div id="antallValidering"></div><br><br>
+<div class="validering" id="antallValidering"></div><br><br>
 
 <label for="fornavn">Fornavn</label>
-<input type="text" id="fornavn"><br>
+<input type="text" id="fornavn">
+<div class="validering" id="fornavnValidering"></div><br>
+
 <label for="etternavn">Etternavn</label>
-<input type="text" id="etternavn"><br>
+<input type="text" id="etternavn">
+<div class="validering" id="etternavnValidering"></div><br>
+
 <label for="telefnr">Telefonnr</label>
-<input type="text" id="telefnr"><br>
+<input type="text" id="telefnr">
+<div class="validering" id="telefnrValidering"></div><br>
+
 <label for="epost">Epost</label>
-<input type="email" id="epost"><br>
+<input type="email" id="epost">
+<div class="validering" id="epostValidering"></div><br>
+
 <button id="kjopBilett">Kjøp billett</button>
 
 <h2>Alle billetter</h2>
